@@ -25,7 +25,6 @@ function PostCard() {
                     12.k views
                 </span>
             </section>
-            <hr />
         </section>
     )
 }

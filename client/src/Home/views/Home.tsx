@@ -1,9 +1,13 @@
+import FeedInfo from "../components/FeedInfo"
 import PostCard from "../components/PostCard"
 
 function Home() {
   return (
-    <section className="px-4 py-4">
+    <section className="flex flex-col gap-4">
+      <FeedInfo/>
+      <hr/>
       <PostCard/>
+      <hr/>
     </section>
   )
 }
