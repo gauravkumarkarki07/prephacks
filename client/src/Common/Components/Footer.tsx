@@ -1,6 +1,6 @@
 function Footer() {
     return (
-        <footer className="flex flex-col gap-2 px-10 py-4 bg-gray-400">
+        <footer className="flex flex-col gap-2 px-10 py-4 max-w-[1290px] mx-auto w-full">
             <section className="flex flex-row gap-24">
                     <section>
                         <h1>Prep Hacks</h1>
@@ -13,9 +13,8 @@ function Footer() {
                         </ul>
                     </nav>
             </section>
-            <hr/>
-            <section className="flex justify-center">
-                <span className="px-2 py-2 self-center">
+            <section className="flex justify-center text-sm text-gray-500 mt-6 mb-2">
+                <span className="px-2 py-1 self-center">
                 Copyright 2024. All Rights Reserved.
                 </span>
             </section>

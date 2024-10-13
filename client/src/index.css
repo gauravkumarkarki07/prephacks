@@ -9,8 +9,8 @@ body{
     padding: 0;
     border: 0;
     @apply font-Roboto;
-    @apply text-text;
-    @apply bg-backgrond;
+    @apply text-black;
+    @apply bg-white;
 }
 
 @layer base {

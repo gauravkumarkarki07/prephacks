@@ -7,7 +7,7 @@ function AuthenticatedRoute() {
   return (
     <section className="flex flex-col">
       <Header />
-      <section className="flex flex-row">
+      <section className="flex flex-row max-w-[1290px] mx-auto w-full">
         <section className="w-[22%]">
           <Sidebar />
         </section>
@@ -15,7 +15,8 @@ function AuthenticatedRoute() {
           <Outlet />
         </section>
       </section>
-      <Footer />
+          <hr/>
+      <Footer/>
     </section>
   )
 }
